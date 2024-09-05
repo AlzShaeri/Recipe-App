@@ -7,8 +7,8 @@ const RecipeSearch = () => {
   const [recipes, setRecipes] = useState([]);
 
   const searchRecipes = async () => {
-    const APP_ID = 'd2d1c0d8';
-    const APP_KEY = '73f8cfaddd63f434dd16a9f34be5bd61';
+    const APP_ID = 'SAMPLE;
+    const APP_KEY = 'SAMPLE';
     const url = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`;
 
     try {
