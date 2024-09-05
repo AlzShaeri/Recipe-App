@@ -1,0 +1,4 @@
+node_modules/
+recipe_app/
+src/firebaseConfig.js
+src/components/RecipeSearch.js
